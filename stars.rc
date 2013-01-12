@@ -1,0 +1,155 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+bluestar                BITMAP  DISCARDABLE     "blue star.bmp"
+redstar                 BITMAP  DISCARDABLE     "red star.bmp"
+whitestar               BITMAP  DISCARDABLE     "white star.bmp"
+yellowstar              BITMAP  DISCARDABLE     "yellow star.bmp"
+earth                   BITMAP  DISCARDABLE     "earthspn.bmp"
+jupiter                 BITMAP  DISCARDABLE     "jupiter.bmp"
+mars                    BITMAP  DISCARDABLE     "mars.bmp"
+neptune                 BITMAP  DISCARDABLE     "neptune.bmp"
+saturn                  BITMAP  DISCARDABLE     "saturn.bmp"
+venus                   BITMAP  DISCARDABLE     "venus.bmp"
+unregbmp                BITMAP  DISCARDABLE     "unreg.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+about_box DIALOGEX 0, 0, 176, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,61,105,50,14
+    CONTROL         "Stars",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,
+                    90,21,19,8
+    LTEXT           "Created by Eric Duhon and Mathew Shoemate ",IDC_STATIC,
+                    13,34,150,8
+    ICON            IDI_ICON1,IDC_STATIC,65,14,20,20
+    EDITTEXT        IDC_EDIT1,25,82,46,14,ES_NUMBER,WS_EX_STATICEDGE
+    LTEXT           "Enter Registration Number",IDC_STATIC,43,70,86,8
+    LTEXT           "View the readme file for more information",IDC_STATIC,
+                    25,54,128,8
+    PUSHBUTTON      "Register!!!",reg_but,100,82,50,14
+END
+
+about_boxreg DIALOG DISCARDABLE  0, 0, 176, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,61,76,50,14
+    CONTROL         "Stars",-1,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,90,21,
+                    19,8
+    LTEXT           "Created by Eric Duhon and Mathew Shoemate ",-1,13,34,
+                    150,8
+    ICON            IDI_ICON1,-1,65,14,21,20
+    LTEXT           "View the readme file for more information",-1,25,54,128,
+                    8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "about_box", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    "about_boxreg", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
